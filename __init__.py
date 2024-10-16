@@ -6,8 +6,8 @@ from datetime import datetime, timedelta
 app = Flask(__name__)
 
 def fetch_covid_data():
-    # Use a fixed date in the past
-    end_date = datetime(2020, 12, 1)  # May 1, 2020
+    # fixed date in the past
+    end_date = datetime(2020, 11, 30)  # November 30, 2020
     days = 30
     start_date = end_date - timedelta(days=days)
 
