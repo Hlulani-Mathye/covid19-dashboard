@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>COVID-19 Dashboard</h1>
+    </header>
+    <main>
+        <section id="daily-stats">
+            <h2>Daily Cases and Deaths</h2>
+            <!-- We'll add charts here later -->
+        </section>
+        <section id="vaccination-progress">
+            <h2>Vaccination Progress</h2>
+            <!-- We'll add charts here later -->
+        </section>
+        <section id="region-comparison">
+            <h2>Region Comparison</h2>
+            <!-- We'll add charts here later -->
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
