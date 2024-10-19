@@ -28,4 +28,4 @@ A simple web-based dashboard to visualize COVID-19 statistics using HTML and Pyt
 
 ## Data Source
 
-COVID-19 data is obtained from a public API. CSV file (to be implemented).
+COVID-19 data is obtained from a public API. CSV file (To be Implemented Soon!!!).
